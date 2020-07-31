@@ -1,0 +1,22 @@
+GET : http://localhost:9000/aliens
+
+GET : http://localhost:9000/aliens/:id
+
+POST : http://localhost:9000/aliens
+    {
+        "name": "Krishna",
+        "tech": "UAlbany"
+    }
+ 
+
+PATCH : http://localhost:9000/aliens/:id
+    {
+        "sub":"true"
+    }  
+
+DELETE : http://localhost:9000/aliens/:id
+
+
+Adding Data to Github is successfull
+
+
